@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Dec 13 21:39:14 2017
+# Process ID: 1048
+# Current directory: C:/Users/cathy/Documents/PicoBlaze_test/PicoBlaze_test.runs/impl_1
+# Command line: vivado.exe -log pico6_sw2led.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pico6_sw2led.tcl -notrace
+# Log file: C:/Users/cathy/Documents/PicoBlaze_test/PicoBlaze_test.runs/impl_1/pico6_sw2led.vdi
+# Journal file: C:/Users/cathy/Documents/PicoBlaze_test/PicoBlaze_test.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source pico6_sw2led.tcl -notrace

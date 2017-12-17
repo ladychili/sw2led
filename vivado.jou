@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Thu Dec 14 07:55:12 2017
+# Process ID: 1112
+# Current directory: Z:/Downloads/MSD_coursework/Stage3_a_sw2LED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3400 Z:\Downloads\MSD_coursework\Stage3_a_sw2LED\PicoBlaze_test.xpr
+# Log file: Z:/Downloads/MSD_coursework/Stage3_a_sw2LED/vivado.log
+# Journal file: Z:/Downloads/MSD_coursework/Stage3_a_sw2LED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Z:/Downloads/MSD_coursework/Stage3_a_sw2LED/PicoBlaze_test.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {Z:/Downloads/MSD_coursework/Stage3_a_sw2LED/PicoBlaze_test.runs/impl_1/pico6_sw2led.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/Downloads/MSD_coursework/Stage3_a_sw2LED/PicoBlaze_test.runs/impl_1/pico6_sw2led.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
